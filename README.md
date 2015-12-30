@@ -1,3 +1,3 @@
 # dotfiles
 
-./setup.sh - Creates symlinks to the dotfiles.
+`./setup.sh` - Create symlinks to the dotfiles.
