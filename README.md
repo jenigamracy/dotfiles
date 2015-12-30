@@ -1,2 +1,3 @@
 # dotfiles
-Vim config
+
+./setup.sh - Creates symlinks to the dotfiles.
