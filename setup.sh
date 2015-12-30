@@ -1,9 +1,20 @@
 #!/bin/bash
 
+function linkDotFile {
+  if [[ -e $1 ]]; then
+    echo -e "Backing up: \e[1;34m$1\e[0m"
+    mv $1 $1_$(date +%s) > /dev/null 2>&1
+  fi
+
+  echo -e "Symlinking: \e[1;32m${THIS_DIR}/$1\e[0m"
+  ln -s ${THIS_DIR}/$1
+}
+
 THIS_DIR=$PWD
 cd ~
-mv .vimrc .vimrc_bak > /dev/null 2>&1
-mv .vim .vim_bak > /dev/null 2>&1
-ln -s ${THIS_DIR}/.vimrc
-ln -s ${THIS_DIR}/.vim
+linkDotFile .vimrc
+linkDotFile .vim
+linkDotFile .bash_aliases
+linkDotFile .bashrc
+linkDotFile .bash_profile
 
