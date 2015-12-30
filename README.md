@@ -1,3 +1,6 @@
+Installation
+============
+
 `git clone git@github.com:jenigamracy/dotfiles.git`
 
 `cd dotfiles`
