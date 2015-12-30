@@ -1,5 +1,5 @@
 .vim/backup/*
 .vim/tmp/*
 
-!./vim/backup/.empty
-!./vim/tmp/.empty
+!.vim/backup/.empty
+!.vim/tmp/.empty
