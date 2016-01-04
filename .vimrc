@@ -1,3 +1,5 @@
+set nocompatible
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Set backup and swap file dirs
 set backup
@@ -39,9 +41,8 @@ nmap <silent> <C-k> :wincmd k<cr>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " SPACING
-set tabstop=4       " 4 spaces per tab
-set shiftwidth=4    " 1 tab per line
-set smarttab
+set tabstop=2       " tab = 2 spaces
+set shiftwidth=2    " indentation = 2 spaces
 set expandtab
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -93,3 +94,6 @@ endif
 
 " require_once shortcut
 map ro lbveyO'<Esc>pbv$:s/_/\//g<CR>A.php';<Esc>^irequire_once <Esc>$//
+
+" Reload vimrc without restarting vim
+au BufWritePost .vimrc source %
