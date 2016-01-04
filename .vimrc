@@ -31,9 +31,11 @@ map <right> <nop>
 nnoremap j gj
 nnoremap k gk
 
-" Traversing through tabs
-map tn :tabnext<CR>
-map tp :tabprev<CR>
+" Split movement
+nmap <silent> <C-h> :wincmd h<cr>
+nmap <silent> <C-j> :wincmd j<cr>
+nmap <silent> <C-l> :wincmd l<cr>
+nmap <silent> <C-k> :wincmd k<cr>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " SPACING
