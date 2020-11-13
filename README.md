@@ -1,7 +1,7 @@
 Installation
 ============
 
-`git clone git@github.com:jenigamracy/dotfiles.git`
+`git clone https://github.com/jenigamracy/dotfiles.git`
 
 `cd dotfiles`
 

@@ -41,13 +41,13 @@ nmap <silent> <C-k> :wincmd k<cr>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " SPACING
-set tabstop=2       " tab = 2 spaces
+set tabstop=4       " tab = 4 spaces
 set shiftwidth=2    " indentation = 2 spaces
 set expandtab
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " MOUSE
-
+   
 " Enable the mouse 
 set mouse=a     
 
