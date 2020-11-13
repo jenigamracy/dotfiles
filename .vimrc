@@ -42,7 +42,7 @@ nmap <silent> <C-k> :wincmd k<cr>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " SPACING
 set tabstop=4       " tab = 4 spaces
-set shiftwidth=2    " indentation = 2 spaces
+set shiftwidth=4    " indentation = 4 spaces
 set expandtab
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
