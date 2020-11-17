@@ -1,5 +1,11 @@
+# Exclude everything
+backups/*
 .vim/backup/*
 .vim/tmp/*
+.vim/.netrwhist
 
+# Exceptions to the rule
+!backups/.gitkeep
 !.vim/backup/.empty
 !.vim/tmp/.empty
+
