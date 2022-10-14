@@ -15,6 +15,6 @@ cd ~
 linkDotFile .vimrc
 linkDotFile .vim
 linkDotFile .bash_aliases
-linkDotFile .bashrc
-linkDotFile .bash_profile
+//linkDotFile .bashrc
+//linkDotFile .bash_profile
 

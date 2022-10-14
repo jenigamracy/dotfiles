@@ -92,8 +92,5 @@ endif
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " OTHER
 
-" require_once shortcut
-map ro lbveyO'<Esc>pbv$:s/_/\//g<CR>A.php';<Esc>^irequire_once <Esc>$//
-
 " Reload vimrc without restarting vim
 au BufWritePost .vimrc source %
