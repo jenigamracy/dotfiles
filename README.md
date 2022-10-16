@@ -1,8 +1,11 @@
 Installation
 ============
 
-`git clone https://github.com/jenigamracy/dotfiles.git`
+Clone this repo: `git clone https://github.com/jenigamracy/dotfiles.git`
 
-`cd dotfiles`
+Go to the directory: `cd dotfiles`
 
-`./setup.sh` - Create symlinks to the dotfiles in your HOME directory.
+Run the script: `./setup.sh`
+- This will do the following:
+    - create symlinks in your home directory to .vimrc and .vim directory (for backup purposes)
+    - copy the .bash\* files if they don't already exist in the home directory; otherwise append to them
