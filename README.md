@@ -16,4 +16,7 @@ Run the script: `./setup.sh`
     - `export MSYS=winsymlinks:nativestrict`
 
 - Failed to push some refs
-    - `git config --global push.autoSetupRemote true`
+    ```
+    git pull --rebase
+    git push
+    ```
