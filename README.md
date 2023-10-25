@@ -14,3 +14,6 @@ Run the script: `./setup.sh`
 - Unable to symlink in git-bash on Windows
     - Run git-bash as admin
     - `export MSYS=winsymlinks:nativestrict`
+
+- Failed to push some refs
+    - `git config --global push.autoSetupRemote true`
