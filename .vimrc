@@ -17,10 +17,23 @@ nnoremap <F2> :set number!<CR>
 syntax enable
 
 " Highlight if over 120 characters
-highlight OverLength ctermbg=gray guibg=#FFD9D9
+highlight OverLength ctermbg=blue guibg=#3A3B3C
 match OverLength /\%>120v.\+/
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" EDITING
+
+" insert line above/below current line without entering insert mode
+nnoremap O O<Esc>
+nnoremap o o<Esc>
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" SPACING
+set tabstop=4       " tab = 4 spaces
+set shiftwidth=4    " indentation = 4 spaces
+set expandtab
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " NAVIGATION
 
 " Disable the arrow keys - yes, your partner will hate you
@@ -38,12 +51,6 @@ nmap <silent> <C-h> :wincmd h<cr>
 nmap <silent> <C-j> :wincmd j<cr>
 nmap <silent> <C-l> :wincmd l<cr>
 nmap <silent> <C-k> :wincmd k<cr>
-
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" SPACING
-set tabstop=4       " tab = 4 spaces
-set shiftwidth=4    " indentation = 4 spaces
-set expandtab
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " MOUSE

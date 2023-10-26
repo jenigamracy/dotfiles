@@ -15,8 +15,16 @@ Run the script: `./setup.sh`
     - Run git-bash as admin
     - `export MSYS=winsymlinks:nativestrict`
 
-- Failed to push some refs
+- Error "Failed to push some refs" when using `git push`
     ```
     git pull --rebase
     git push
     ```
+
+- Set vimdiff as the diff tool
+    ```
+    git config --global diff.tool vimdiff
+    git config --global merge.tool vimdiff
+    git config --global difftool.prompt false
+    ```
+
