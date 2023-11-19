@@ -24,8 +24,8 @@ match OverLength /\%>120v.\+/
 " EDITING
 
 " insert line above/below current line without entering insert mode
-nnoremap O O<Esc>
-nnoremap o o<Esc>
+" nnoremap O O<Esc>
+" nnoremap o o<Esc>
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " SPACING
