@@ -9,6 +9,8 @@ set directory=~/.vim/tmp/
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " LOOK AND FEEL
 
+colorscheme darkblue " also decent: koehler, murphy, torte
+
 " Line numbers
 set number
 nnoremap <F2> :set number!<CR>
